@@ -1,52 +1,20 @@
-# meteor-boilerplate
+# Pregnancy log for iOS and web
 
-A starting point for MeteorJS applications. Includes iron-router, Bootstrap 3, Font Awesome, LESS and more.
+Based on [Differential.com's meteor-boilerplate](https://github.com/Differential/meteor-boilerplate), this Meteor application demo is used for women who wish to track symptoms (among other things) of pregnancy and report them to her OB/GYN.
 
-* [Included Packages](#included-packages)
+Run "meteor list" for local dependancies/packages.
+
 * [Installation](#installation)
 * [File Structure](#file-structure)
-* [Bootstrap and Less](#bootstrap-and-less)
 * [SEO](#seo)
 * [Favicons and Touch Icons](#favicons-and-touch-icons)
 * [Seed Data](#seed-data)
-
-## <a name="included-packages"></a> Included Packages
-
-* Collections:
-  * [dburles:collection-helpers](https://github.com/dburles/meteor-collection-helpers)
-  * [matb33:collection-hooks](https://github.com/matb33/meteor-collection-hooks)
-  * [reywood:publish-composite](https://github.com/englue/meteor-publish-composite)
-* Router:
-  * [iron:router](https://github.com/EventedMind/iron-router)
-  * [zimme:iron-router-active](https://github.com/zimme/meteor-iron-router-active)
-  * [manuelschoebel:ms-seo](https://github.com/DerMambo/ms-seo)
-  * [fuatsengul:iron-router-auth](https://github.com/XpressiveCode/iron-router-auth)
-* Authentication
-  * [joshowens:accounts-entry](https://github.com/Differential/accounts-entry/)
-  * [alanning:roles](https://github.com/alanning/meteor-roles)
-* Seed Data
-  * [dburles:factory](https://github.com/percolatestudio/meteor-factory)
-  * [anti:fake](https://github.com/anticoders/meteor-fake/)
-* [Less](http://lesscss.org)
-  * [Bootstrap](http://getbootstrap.com)
-  * [Font Awesome](http://fontawesome.io)
-* Misc:
-  * [Moment.js](http://momentjs.com/)
-  * [Underscore.js](http://underscorejs.org/)
-  * [Underscore.string](http://epeli.github.io/underscore.string/)
-  * [cunneen:mailgun](https://github.com/cunneen/meteor-mailgun)
 
 ## <a name="installation"></a> Installation
 
 1. Clone this repo to `<yourapp>`
 
-  `% git clone https://github.com/Differential/meteor-boilerplate.git <yourapp>`
-
-2. Remove `.git`
-
-  `% cd <yourapp> && rm -rf .git`
-
-3. Start coding!
+  `% git clone https://github.com/robertBrown/preggers-log.git`
 
 ## <a name="file-structure"></a> File Structure
 
@@ -95,6 +63,8 @@ server/
 ```
 
 ## <a name="bootstrap-and-less"></a> Bootstrap and Less
+
+*This project is using the mrt:bootsrap-update.
 
 The majority of Bootstrap can be customized with Less variables. If you look in `stylesheets/bootstrap/variables.import.less` you will see a slew of configuration variables that can be tweaked to drastically change the look and feel of your site without having to write a single line of CSS.
 
