@@ -18,7 +18,7 @@ Run "meteor list" for local dependancies/packages.
 
 2. Create local "dev" branch and switch to it.
 
-  '$ git checkout -b [name_of_your_new_branch]'
+  '$ git checkout -b dev'
 
 3. Push the branch on github
 
