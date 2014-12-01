@@ -14,7 +14,7 @@ Run "meteor list" for local dependancies/packages.
 
 1. Clone this repo to `<yourapp>`
 
-  `% git clone https://github.com/robertBrown/preggers-log.git`
+  `% git clone https://github.com/robertBrown/pregnancy-log.git`
 
 ## <a name="file-structure"></a> File Structure
 
