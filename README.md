@@ -16,6 +16,14 @@ Run "meteor list" for local dependancies/packages.
 
   `% git clone https://github.com/robertBrown/pregnancy-log.git`
 
+2. Create local "dev" branch and switch to it.
+
+  '$ git checkout -b [name_of_your_new_branch]'
+
+3. Push the branch on github
+
+  '$ git push origin dev'
+
 ## <a name="file-structure"></a> File Structure
 
 We have a common file structure we use across all of our Meteor apps. Client-only files are stored in the `client` directory, server-only files are stored in the `server` directory, and shared files are stored in the root. Our structure also keeps view-dependent files together (`.html`, `.less`, `.js`).
