@@ -1,6 +1,6 @@
 # Pregnancy log for iOS and web
 
-Based on [Differential.com's meteor-boilerplate](https://github.com/Differential/meteor-boilerplate), this Meteor application demo is used for women who wish to track symptoms (among other things) of pregnancy and report them to her OB/GYN.
+Based on [Differential.com's meteor-boilerplate](https://github.com/Differential/meteor-boilerplate) and [Polymer + Meteor demo](https://github.com/Differential/polymer-demo), this Meteor application demo is used for women who wish to track symptoms (among other things) of pregnancy and report them to her OB/GYN.
 
 Run "meteor list" for local dependancies/packages.
 
