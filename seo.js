@@ -1,12 +1,12 @@
 Meteor.startup(function() {
   if(Meteor.isClient) {
     SEO.config({
-      title: 'Project Title',
+      title: 'My Pregnancy Log',
       meta: {
-        'description': 'A project by Differential.io'
+        'description': 'Log your pregnant life.  HIPPA complient.'
       },
       og: {
-        'image': Meteor.absoluteUrl('share-image.png')
+        'image': Meteor.absoluteUrl('preglogLogo.svg')
       },
       ignore: {
         meta: ['fragment', 'viewport', 'msapplication-TileColor', 'msapplication-TileImage', 'msapplication-config'],
